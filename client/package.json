@@ -1,0 +1,8 @@
+{
+  "name": "client",
+  "packageManager": "yarn@3.1.1",
+  "main": "src/index.js",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}

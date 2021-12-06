@@ -1,0 +1,25 @@
+{
+  "name": "meue",
+  "version": "1.0.0",
+  "description": "Monorepo using yarn for all of meue",
+  "author": "mercury-team@marketo.com",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.marketo.org:meue/meue.git"
+  },
+  "engines": {
+    "node": ">=12.19.0"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory-uw2.adobeitc.com/artifactory/api/npm/npm-local-release"
+  },
+  "license": "UNLICENSED",
+  "workspaces": [
+    "client/"
+  ],
+  "dependencies": {
+    "yarn": "2.4"
+  },
+  "packageManager": "yarn@2.4.0"
+}
