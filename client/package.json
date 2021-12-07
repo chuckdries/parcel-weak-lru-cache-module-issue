@@ -2,6 +2,9 @@
   "name": "client",
   "packageManager": "yarn@3.1.1",
   "main": "src/index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
   "devDependencies": {
     "parcel": "^2.0.1"
   }
